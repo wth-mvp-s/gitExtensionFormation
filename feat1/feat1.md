@@ -4,3 +4,4 @@
  correction feat 1 missing line second
 
  Drugie podejscie do git Extension exercice rebase, Corretcion 1 feat1 for rebase
+ Drugie podejscie do git Extension exercice rebase, Corretcion 2 feat1 for rebase
