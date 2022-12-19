@@ -1,7 +1,9 @@
-[assembly: ApiController]
-namespace Hubbix.Batiment.GestionPrestation.API;
+using Hubbix.Batiment.GestionPrestation.API;
+using Microsoft.Extensions.Hosting;
 
-internal static class Program
+namespace Hubbix.Batiment.GestionPrestation.Consommateur;
+
+public static class Program
 {
   public static void Main(string[] args)
   {
@@ -14,6 +16,6 @@ internal static class Program
   public static IHostBuilder CreateHostBuilder(string[] args)
   {
     return Host.CreateDefaultBuilder(args)
-      .UseHttp<Startup>();
+      .UseMessaging<Startup>();
   }
 }
